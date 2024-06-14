@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
   return (
     <div>
-      <h5>Careers Terms of Use</h5> 
+      <p>© 2024 ActivityNest rights reserved.</p> 
     </div>
   );
 };

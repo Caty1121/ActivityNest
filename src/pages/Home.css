@@ -1,0 +1,16 @@
+h2, h3, h4, p {
+    padding: 1em;
+}
+.call-to-action {
+    border-radius: 12px;
+    border: rgb(48, 7, 15);
+    font-weight: 500;
+}
+
+.outdoor-activites {
+    height: 60vh;
+    padding-left: 30%;
+}
+.testimonials-header {
+    text-align: center;
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import OutdoorImage from '../images/outdoor-activities2.jpg';
 import EducationImage from '../images/crafts2.jpg';
 import WinterImage from '../images/seasonal-winter.jpg';
+import './Library.css';
 
 
 const Library = () => {

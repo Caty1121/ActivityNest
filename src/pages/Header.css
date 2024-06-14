@@ -1,3 +1,11 @@
-.navbar-brand {
-    background-color: aquamarine;
+.hero-banner {
+    margin-top: 0;
+    background-color: #4ca904 !important;
+    padding: 1em
+}
+button {
+    background-color: #ff574A ;
+    border-radius: 12px;
+    padding: .5em;
+
 }
