@@ -29,11 +29,11 @@ h3 {
     color: #ffff;
     opacity: 1;
     border-radius: 15px;
-    padding: 1em;
+    padding: .75em;
     border: rgb(48, 7, 15);
     font-weight: 700;
     margin-bottom: 1em;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .outdoor-activites {

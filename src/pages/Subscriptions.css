@@ -5,26 +5,32 @@
     min-width: 100vh;
     padding: 5%;
     background-color: aliceblue;
+    color:black;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .plan-comparison {
     background-color:rgb(245, 235, 205);
-    padding: 1em;
+    padding-left: 2em;
     opacity: .8;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    max-width: 130vh;
+    max-width: 126.5vh;
+    color:black;
 }
 
 .suscribe-now {
-    padding: 1em;
+    padding: .75em;
     border-radius: 20px;
-    width:20vh;
+    width:25vh;
     background-color: rgb(7, 98, 27);
     color:aliceblue;
     font-weight: 700;
     border: rgb(7, 98, 27);
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700px;
+    color:black;
 }
 #plans-card, .sign-up-process {
     display: flex;
@@ -32,25 +38,38 @@
     background-color: rgb(245, 235, 205);
     border-bottom-left-radius: 20px;
     opacity: .8;
+    color:black;
 }
  #plans-card {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    max-width: 130vh;
+    max-width: 133vh;
+    color:black;
  }
 
 .sign-up-process {
+    border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    margin-bottom: 1em;
-    max-width: 133.9vh;
+    max-width: 140vh;
+    color:black;
 }
 .get-started, .steps, .price {
     margin-left: 1em;
     border-bottom-left-radius: 20px;
+    color:black;
+}
+.price {
+    padding-left: 1em;
+    font-weight: 900;
+    color: black;
+
 }
 
 .button-box {
 padding: 5em;
+}
+p {
+    color:black;
 }

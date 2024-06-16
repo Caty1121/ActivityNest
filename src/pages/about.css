@@ -3,6 +3,29 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100vh;
-    padding-bottom: 40%;
-    padding-top: 30%;
+    padding-left: 15em;
+    padding-right: 15em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .container, .values {
+    background-color: rgb(245, 235, 205);
+    border-radius: 20px;
+    padding-left: 2em;
+    padding-right: 2em;
+    opacity: .8;
+  }
+  .contact-us {
+    border-radius: 20px;
+    background-color: #218838;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 1em;
+    color: white;
+  }
+  .contact {
+    padding-bottom: 2em;
   }
