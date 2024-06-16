@@ -60,14 +60,14 @@
   .item-details button {
     padding: 5px 10px;
     background-color: #b85006;
-    font-size: 15px;
+    font-size: 20px;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 10px;
     align-self: flex-start;
-    font-weight: 600;
+    font-weight: 700;
   }
   
   .item-details button:hover {
@@ -87,7 +87,8 @@
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 20px;
+    font-size: 20px;
   }
   
   .cart-summary button:hover {

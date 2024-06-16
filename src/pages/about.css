@@ -9,7 +9,7 @@
     padding-bottom: 5em;
     color:black;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
   }
   .container, .values {
     background-color: rgb(245, 235, 205);
@@ -17,15 +17,21 @@
     padding-left: 2em;
     padding-right: 2em;
     opacity: .8;
+    color:black;
   }
   .contact-us {
     border-radius: 20px;
     background-color: #218838;
     font-weight: 800px;
     font-size: 20px;
-    padding: 1em;
+    padding: .75em;
     color: white;
+    border-color: #218838;
   }
   .contact {
     padding-bottom: 2em;
   }
+  p {
+    color: black;
+    font-weight: 700px;
+}
