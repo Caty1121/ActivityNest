@@ -6,8 +6,9 @@ const Subscriptions = () => {
     <div>
 
       <div className="subscriptions">
-        <h1>Subscription Plans</h1>
         <div className='plan-comparison'>
+        <h1>Subscription Plans</h1>
+
           <div className='pricing'>
           </div>  
             <h4>
@@ -67,8 +68,10 @@ const Subscriptions = () => {
               <li className='steps'><strong>Enjoy: </strong>Start receiving your monthly activity kits and make family time fun and educational!
               </li>
             </ul>
+            <div className='button-box'>
+              <button className='suscribe-now'>Sign Up Now</button>
+              </div>  
         </div>
-        <button className='suscribe-now'>Sign Up Now</button>
       </div>
     </div>
   );

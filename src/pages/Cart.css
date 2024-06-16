@@ -1,9 +1,22 @@
+.cart-box {
+  background-image: url('../images/outdoor-activities1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100vh;
+  padding-bottom: 20%;
+  padding-top: 15%;
+}
+
 .shopping-cart {
     padding: 20px;
-    background-color: #f8f8f8;
+    background-color: #93ad97;
     max-width: 800px;
     margin: 0 auto;
+    opacity: .8;
+    border-radius: 20px;
+
   }
+  
   
   .shopping-cart h1 {
     text-align: center;
@@ -19,10 +32,12 @@
   .cart-item {
     display: flex;
     gap: 10px;
-    background-color: #fff;
+    background-color:  rgb(245, 235, 205);
     padding: 10px;
     border: 1px solid #ddd;
     align-items: center;
+    opacity: .9;
+    border-radius: 20px;
   }
   
   .cart-item img {
@@ -49,17 +64,19 @@
   
   .item-details button {
     padding: 5px 10px;
-    background-color: #007bff;
+    background-color: #b85006;
+    font-size: 15px;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 10px;
     align-self: flex-start;
+    font-weight: 600;
   }
   
   .item-details button:hover {
-    background-color: #0056b3;
+    background-color:#804419;
   }
   
   .cart-summary {
@@ -71,7 +88,7 @@
   
   .cart-summary button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #1a6a2c;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -79,6 +96,8 @@
   }
   
   .cart-summary button:hover {
-    background-color: #218838;
+    background-color: solid #218838;
+    font-weight: 600;
+
   }
   

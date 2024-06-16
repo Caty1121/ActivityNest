@@ -8,8 +8,8 @@ const Contact = () => {
         <h1>Customer Service</h1>
         <div className="contact-info">
           <h3>Contact Us</h3>
-          <p>Email: support@activitynest.com</p>
-          <p>Phone: (123) 657-5309</p>
+          <p><strong>Email:</strong> support@activitynest.com</p>
+          <p><strong>Phone:</strong> (123) 657-5309</p>
           <h3>FAQs</h3>
           <ul>
             <li>How do I track my order?</li>
@@ -20,11 +20,11 @@ const Contact = () => {
         <div className="contact-form">
           <h3>Send Us a Message</h3>
           <form>
-            <label>Name</label>
+            <label></label>
             <input type="text" name="name" placeholder='Name' />
-            <label>Email</label>
-            <input type="email" name="email" placeholder='email'/>
-            <label>Message</label>
+            <label></label>
+            <input type="email" name="email" placeholder='Email'/>
+            <label></label>
             <textarea name="message" placeholder='Message'></textarea>
             <button type="submit">Submit</button>
           </form>

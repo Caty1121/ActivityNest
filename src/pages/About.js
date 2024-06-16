@@ -4,7 +4,9 @@ import './About.css';
 const About = () => {
   return (
     <div>
-      <h1>About Page</h1>
+      <div className='about-box'>
+        <h1>About Page</h1>
+      </div>
     </div>
   );
 };

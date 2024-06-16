@@ -3,13 +3,24 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  
+  .footer {
+    background-color: #925e2a;
+    padding: 1em;
+    opacity: .7;
+  }
+  #copyright {
+    background-color: #925e2a;
+    font-weight: 600;
+    text-align: end;
+  }
   .app-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
   }
   
   .content {
-    flex: 1; 
+    flex: 1;
+
   }

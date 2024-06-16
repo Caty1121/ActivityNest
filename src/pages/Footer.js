@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <div>
-      <p>© 2024 ActivityNest rights reserved.</p> 
+    <div className='footer'>
+      <p id='copyright'>© 2024 ActivityNest rights reserved.</p> 
     </div>
   );
 };

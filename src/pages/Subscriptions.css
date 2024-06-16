@@ -3,38 +3,54 @@
     background-size: cover;
     background-repeat: no-repeat;
     min-width: 100vh;
-    padding: 20px;
-}
-.subscriptions::before {
-    content: "";
-    background-color: rgba(181, 39, 39, 0.7);
-    z-index: 1;
+    padding: 5%;
+    background-color: aliceblue;
 }
 
-.subscriptions > * {
-    position: relative;
-    z-index: 2;
-  }
+.plan-comparison {
+    background-color:rgb(245, 235, 205);
+    padding: 1em;
+    opacity: .8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 130vh;
+}
+
 .suscribe-now {
-    border-radius: 12px;
-    margin-left: 1em;
+    padding: 1em;
+    border-radius: 20px;
+    width:20vh;
+    background-color: rgb(7, 98, 27);
+    color:aliceblue;
+    font-weight: 700;
+    border: rgb(7, 98, 27);
+    font-size: 15px;
 }
 #plans-card, .sign-up-process {
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: rgb(245, 235, 205);
+    border-bottom-left-radius: 20px;
     opacity: .8;
 }
  #plans-card {
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    max-width: 130vh;
  }
 
 .sign-up-process {
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     margin-bottom: 1em;
+    max-width: 133.9vh;
 }
 .get-started, .steps, .price {
     margin-left: 1em;
+    border-bottom-left-radius: 20px;
+}
+
+.button-box {
+padding: 5em;
 }

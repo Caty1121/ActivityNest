@@ -5,6 +5,7 @@
     min-width: 100vh;
     padding-bottom: 20%;
     padding: 4em;
+    font-weight: 600;
 }
 h1 {
   color: rgb(3, 3, 3);
@@ -24,9 +25,9 @@ h1 {
   }
   
   .contact-info {
-    background-color: #fff;
+    background-color:  rgb(245, 235, 205);
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid  rgb(245, 235, 205);
     margin-bottom: 20px;
     opacity: 3;
     border-radius: 10px;
@@ -45,9 +46,9 @@ h1 {
   }
   
   .contact-form {
-    background-color: #fff;
+    background-color: rgb(245, 235, 205);
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid  rgb(245, 235, 205);
     opacity: 4;
     border-radius: 10px;
   }
@@ -76,16 +77,23 @@ h1 {
   
   .contact-form button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #0c6a28;
     color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 20px;
     align-self: flex-start;
     opacity: 4;
+    font-size: 15px;
   }
   
   .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #0c6a28;
+  }
+  p {
+    background-color: rgb(245, 235, 205);
+  }
+ form {
+    width: 80vh;
   }
   

@@ -4,16 +4,15 @@
     background-repeat: no-repeat;
     min-width: 100vh;
     padding-bottom: 20%;
+    font-weight: 600;
 }
 
 p {
-    background-color: white;
-    opacity: .8;
-    border-radius: 15px;
+    opacity: .85;
+    border-radius: 20px;
 }
 .discover {
     margin-left: 3em;
-    font-weight: 800px;
     font-weight: 700px;
     background-color: #93ad97;
     border-radius: 20px;
@@ -29,11 +28,12 @@ h3 {
     background-color: #218838;
     color: #ffff;
     opacity: 1;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 1em;
     border: rgb(48, 7, 15);
     font-weight: 700;
     margin-bottom: 1em;
+    font-size: 15px;
 }
 
 .outdoor-activites {
@@ -46,10 +46,12 @@ h3 {
 .testimonials {
     margin: 0 auto;
     text-align: center;
-    background-color: white;
+    background-color: rgb(245, 235, 205);
     font-weight: 700;
     opacity: .7;
-    width: 70vh;
+    width: 100vh;
     height: auto;
     border-radius: 15px;
+    padding-bottom: 1em;
+    font-size: 18px;
 }
