@@ -1,0 +1,91 @@
+.contact-box {
+    background-image: url('../images/family1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    padding-bottom: 20%;
+    padding: 4em;
+}
+h1 {
+  color: rgb(3, 3, 3);
+}
+.customer-service {
+    padding: 20px;
+    background-color: #93ad97;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: .8;
+    border-radius: 20px;
+  }
+  
+  .customer-service h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    opacity: 3;
+    border-radius: 10px;
+  }
+  
+  .contact-info h3 {
+    margin-top: 0;
+  }
+  
+  .contact-info ul {
+    padding-left: 20px;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    opacity: 4;
+    border-radius: 10px;
+  }
+  
+  .contact-form h3 {
+    margin-top: 0;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .contact-form label {
+    font-weight: bold;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    align-self: flex-start;
+    opacity: 4;
+  }
+  
+  .contact-form button:hover {
+    background-color: #0056b3;
+  }
+  

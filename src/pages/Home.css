@@ -1,16 +1,55 @@
-h2, h3, h4, p {
-    padding: 1em;
+.home-box{
+    background-image: url('../images/outdoor-activities4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    padding-bottom: 20%;
 }
+
+p {
+    background-color: white;
+    opacity: .8;
+    border-radius: 15px;
+}
+.discover {
+    margin-left: 3em;
+    font-weight: 800px;
+    font-weight: 700px;
+    background-color: #93ad97;
+    border-radius: 20px;
+    opacity: .8;
+    width:70vh;
+}
+h3 {
+    padding: 1em;
+    font-weight: 600px;
+}
+
 .call-to-action {
-    border-radius: 12px;
+    background-color: #218838;
+    color: #ffff;
+    opacity: 1;
+    border-radius: 20px;
+    padding: 1em;
     border: rgb(48, 7, 15);
-    font-weight: 500;
+    font-weight: 700;
+    margin-bottom: 1em;
 }
 
 .outdoor-activites {
     height: 60vh;
+    width:auto;
     padding-left: 30%;
+    padding-top: 0;
+    padding-bottom: 0;
 }
-.testimonials-header {
+.testimonials {
+    margin: 0 auto;
     text-align: center;
+    background-color: white;
+    font-weight: 700;
+    opacity: .7;
+    width: 70vh;
+    height: auto;
+    border-radius: 15px;
 }

@@ -1,7 +1,40 @@
+.subscriptions {
+    background-image: url('../images/family2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 100vh;
+    padding: 20px;
+}
+.subscriptions::before {
+    content: "";
+    background-color: rgba(181, 39, 39, 0.7);
+    z-index: 1;
+}
+
+.subscriptions > * {
+    position: relative;
+    z-index: 2;
+  }
 .suscribe-now {
     border-radius: 12px;
+    margin-left: 1em;
 }
-.plans {
+#plans-card, .sign-up-process {
     display: flex;
-    f
+    justify-content: center;
+    background-color: white;
+    opacity: .8;
+}
+ #plans-card {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+ }
+
+.sign-up-process {
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-bottom: 1em;
+}
+.get-started, .steps, .price {
+    margin-left: 1em;
 }

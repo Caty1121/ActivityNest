@@ -1,37 +1,32 @@
-import React from 'react';
-import './Header.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-      <div className="container-fluid">
+    <nav className="navbar">
+      <div className="navbar-container">
         <a className="navbar-brand" href="#">ActivityNest</a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <div className={`navbar-menu ${isOpen ? 'open' : ''}`} id="navbarMenu">
+          <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/about">About</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/blog">Blog</Link>
+              <Link className="nav-link" to="/contact">Contact Us</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/community">Community</Link>
+              <Link className="nav-link" to="/cart">Cart</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/library">Library</Link>
@@ -40,9 +35,9 @@ const Header = () => {
               <Link className="nav-link" to="/subscriptions">Subscriptions</Link>
             </li>
           </ul>
-          <form className="d-flex" role="search">
-            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button className="btn btn-outline-success" type="submit">Search</button>
+          <form className="search-form" role="search">
+            <input className="search-input" type="search" placeholder="Search" aria-label="Search" />
+            <button className="search-button" type="submit">Search</button>
           </form>
         </div>
       </div>
