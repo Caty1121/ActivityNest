@@ -1,8 +1,8 @@
 .hero-banner {
     margin-top: 0;
     background-color: #f6e565;
-    padding: 1em;
     opacity: .8;
+    padding-top: .5em;
   }
   
   #subscribe-now {
@@ -12,10 +12,12 @@
     padding: .8em;
   }
   
+  .logo {
+    height:4em;
+  }
   .navbar {
     background-color: #925e2a;
     margin-top: 0;
-    padding: 8px;
     opacity: .7;
   }
  
@@ -31,6 +33,7 @@
     color: #fff;
     text-decoration: none;
     font-weight: 700;
+    text-align: left;
   }
   
   .navbar-toggler {
@@ -138,5 +141,5 @@
  }
  .search-input::placeholder {
   color: #888;
-  font-size: .85em; /* Increase if the text is too small */
+  font-size: .85em; 
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
+import logoImage from '../images/logo.png'
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,6 +13,7 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
+        <img src={logoImage} alt='logoOfMountains' class="logo"></img>
         <a className="navbar-brand" href="#">ActivityNest</a>
         <div className={`navbar-menu ${isOpen ? 'open' : ''}`} id="navbarMenu">
           <ul className="navbar-nav">
