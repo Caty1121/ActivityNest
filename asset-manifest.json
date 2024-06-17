@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/ActivityNest/static/css/main.5ad7b903.chunk.css",
-    "main.js": "/ActivityNest/static/js/main.9c324e3e.chunk.js",
-    "main.js.map": "/ActivityNest/static/js/main.9c324e3e.chunk.js.map",
-    "runtime~main.js": "/ActivityNest/static/js/runtime~main.2451681a.js",
-    "runtime~main.js.map": "/ActivityNest/static/js/runtime~main.2451681a.js.map",
-    "static/js/2.45cc7e97.chunk.js": "/ActivityNest/static/js/2.45cc7e97.chunk.js",
-    "static/js/2.45cc7e97.chunk.js.map": "/ActivityNest/static/js/2.45cc7e97.chunk.js.map",
-    "static/js/3.c60c86f6.chunk.js": "/ActivityNest/static/js/3.c60c86f6.chunk.js",
-    "static/js/3.c60c86f6.chunk.js.map": "/ActivityNest/static/js/3.c60c86f6.chunk.js.map",
+    "main.css": "/ActivityNest/static/css/main.3896e83f.chunk.css",
+    "main.js": "/ActivityNest/static/js/main.c45e9b08.chunk.js",
+    "main.js.map": "/ActivityNest/static/js/main.c45e9b08.chunk.js.map",
+    "runtime-main.js": "/ActivityNest/static/js/runtime-main.a4bf8bd0.js",
+    "runtime-main.js.map": "/ActivityNest/static/js/runtime-main.a4bf8bd0.js.map",
+    "static/js/2.47509e7c.chunk.js": "/ActivityNest/static/js/2.47509e7c.chunk.js",
+    "static/js/2.47509e7c.chunk.js.map": "/ActivityNest/static/js/2.47509e7c.chunk.js.map",
+    "static/js/3.38c86569.chunk.js": "/ActivityNest/static/js/3.38c86569.chunk.js",
+    "static/js/3.38c86569.chunk.js.map": "/ActivityNest/static/js/3.38c86569.chunk.js.map",
     "index.html": "/ActivityNest/index.html",
-    "precache-manifest.d661bbf13e7ca86b26fc798ee3aca91f.js": "/ActivityNest/precache-manifest.d661bbf13e7ca86b26fc798ee3aca91f.js",
+    "precache-manifest.187ccfed92d6a8e10bcd8b41cebe27e5.js": "/ActivityNest/precache-manifest.187ccfed92d6a8e10bcd8b41cebe27e5.js",
     "service-worker.js": "/ActivityNest/service-worker.js",
-    "static/css/main.5ad7b903.chunk.css.map": "/ActivityNest/static/css/main.5ad7b903.chunk.css.map",
+    "static/css/main.3896e83f.chunk.css.map": "/ActivityNest/static/css/main.3896e83f.chunk.css.map",
+    "static/js/2.47509e7c.chunk.js.LICENSE.txt": "/ActivityNest/static/js/2.47509e7c.chunk.js.LICENSE.txt",
     "static/media/crafts2.jpg": "/ActivityNest/static/media/crafts2.b140bc00.jpg",
     "static/media/Contact.css": "/ActivityNest/static/media/family1.1d5c3ab1.jpg",
     "static/media/Subscriptions.css": "/ActivityNest/static/media/family2.d1ca6aa4.jpg",
@@ -23,5 +24,11 @@
     "static/media/Home.css": "/ActivityNest/static/media/outdoor-activities4.ceb505a6.jpg",
     "static/media/seasonal-winter.jpg": "/ActivityNest/static/media/seasonal-winter.374392b9.jpg",
     "static/media/Library.css": "/ActivityNest/static/media/tree-tops.1f804a5f.jpg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a4bf8bd0.js",
+    "static/js/2.47509e7c.chunk.js",
+    "static/css/main.3896e83f.chunk.css",
+    "static/js/main.c45e9b08.chunk.js"
+  ]
 }
