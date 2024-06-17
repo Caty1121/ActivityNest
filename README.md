@@ -14,38 +14,39 @@ ActivityNest is an e-commerce platform dedicated to providing high-quality, eco-
 - **Frontend:** HTML, CSS, JavaScript
 
 ## Site is temporarily under construction but here's a quick tour:
-Home Page
+
+### Home Page
    ---
 - The home page is complete with a hero banner and a suscribe now banner that changes color on hover linking to the Subscription page.
 
 ![Home](src\images\rm-hompage.png)
 
-About Us Page
+### About Us Page
 ---
 - The About Us page delves into the background of ActivityNest including our story and mission and button linking to the Contact Us page.
 
 ![About](src\images\rm-about1.png)
 ![About](src\images\rm-about2.png)
 
-Contact Us
+### Contact Us
 ---
 - The Contact Us page includes FAQ and a form linking to the sites help center.
 
 ![Contact](src\images\rm-contact1.png)
 
-Activity Library
+### Activity Library
 ---
 - The Activity Library include the curated events that ActivityNest offers.
 
 ![Library](src\images\rm-library.png)
 
-Subscriptions Page
+### Subscriptions Page
 ---
 - The Subscriptions Page include the products we offer (SAAS) and the teir levels available. The Sign Up Now button links to the Cart Page
 
 ![Subscriptions](src\images\rm-subscriptions.png)
 
-Cart
+### Cart
 ---
 - The Cart Page can be found in upper left hand corner. This page includes the option to remove items from the cart or proceed to checkout.
 
